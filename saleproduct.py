@@ -27,7 +27,7 @@ while True:
     if uc==1:
         obj.display_cars()
     elif uc==2:
-        n=int(input("Enter The Qty:"))
+        n=int(input("Enter The Qty no:"))
         obj.CarForRent(n)
     else:
         break
